@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #7350ac;
+    background-color: #000000;
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
 }
@@ -28,11 +28,14 @@ main {
 
 
 #username{
-    padding: 20px;
-    font-size: 18px;
-    border-radius: 10px;
-    border:none;
-    margin: 10px;
+	display: inline-block;
+	width: 52%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #f9004d;
+	outline: none;
+	border-radius: 30px;
+    margin-top: -0cm
+    
 }
 
 .volume-icon{
@@ -40,15 +43,7 @@ main {
     width:20px;
 }
 
-#join-btn {
 
-    background-color: #1f1f1f8e;
-    border: none;
-    color: #fff;
-    font-size: 22px;
-    padding: 20px 30px;
-    cursor: pointer;
-}
 
 
 #user-streams {
@@ -123,4 +118,27 @@ main {
         width: 90%;
         margin: 0 auto;
     }
+}
+#join-btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
+}
+
+.btn:hover{
+	transform: scale(1.2);
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+span{
+	color: #f9004d;
 }
