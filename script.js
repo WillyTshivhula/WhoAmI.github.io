@@ -4,7 +4,7 @@ let client = AgoraRTC.createClient({mode:'rtc', codec:"vp8"})
 //#2
 let config = {
     appid:"c4e6677fa0a54182bad04898d60ad2af",
-    token:'007eJxTYLhyvKxe/cav0k1KNa5OOnNYWyUW+Z+JSHFTrpO7XFOT+kmBIdkk1czM3Dwt0SDR1MTQwigpMcXAxMLSIsXMIDHFKDHtZJ9tsscDu+TW9XUMjFAI4nMylGWmpOYnZySWMDAAAPYMIw0=',
+    token:'007eJxTYHgb1CPMtMq+P7b7xFZt1njRDg4+Fc77d2b7VHz01fGwXKbAkGySamZmbp6WaJBoamJoYZSUmGJgYmFpkWJmkJhilJiWwBSQXB/IyLBFbgUrIwMEgvicDGWZKan5yRmJJQwMAOlUHgA=',
     uid:null,
     channel:'videochat',
 }
